@@ -10,7 +10,7 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 <import resource="classpath:datasource.xml" />
 	<import resource="classpath:hibernate.xml" />
 	
-	<context:component-scan base-package="com.cric.controller,com.cric.dao,com.cric.service" />
+	<context:component-scan base-package="com.pracs.controller,com.pracs.dao,com.pracs.service" />
 
 	
 
